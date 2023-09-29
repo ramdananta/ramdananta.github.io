@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Monomaniac One", sans-serif;
+  background-color: #222;
+}
+
+.container {
+  max-width: 500px;
+  height: 100vh;
+  background-image: url("naruto.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #222;
+  border-radius: 50%;
+}
+
+.profile p {
+  font-size: 30px;
+  color: #eaeaea;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px #222;
+  margin-top: 20px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link a {
+  text-decoration: none;
+  color: #222;
+  font-size: 24px;
+  text-align: center;
+  border: 4px solid #222;
+  background-color: #eaeaea;
+  border-radius: 7px;
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+.link a:hover {
+  background-color: azure;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 17px;
+  color: #eaeaea;
+}
